@@ -1758,12 +1758,6 @@
 		(uuid "04e26919-6028-4c0d-8a0e-8599d66afd73")
 	)
 	(junction
-		(at 205.74 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07826176-fa91-422a-9770-7bb10ffe9cd1")
-	)
-	(junction
 		(at 205.74 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1834,12 +1828,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a10c960d-398c-4f27-8a37-459f29f4a439")
-	)
-	(junction
-		(at 205.74 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b31b5c0f-ddaa-4b64-ba64-a1b85e046417")
 	)
 	(junction
 		(at 205.74 109.22)
@@ -1919,16 +1907,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 99.06) (xy 205.74 99.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "078a1cd3-74fc-421c-bca9-611d4ba1a3c6")
-	)
-	(wire
-		(pts
 			(xy 134.62 132.08) (xy 132.08 132.08)
 		)
 		(stroke
@@ -1939,17 +1917,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 134.62) (xy 205.74 137.16)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "13405c8c-cb64-4291-bab4-7c70855d4e6e")
-	)
-	(wire
-		(pts
-			(xy 203.2 91.44) (xy 223.52 91.44)
+			(xy 203.2 91.44) (xy 226.06 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -1969,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 129.54) (xy 223.52 129.54)
+			(xy 203.2 129.54) (xy 226.06 129.54)
 		)
 		(stroke
 			(width 0.1524)
@@ -1979,7 +1947,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 88.9) (xy 223.52 88.9)
+			(xy 203.2 88.9) (xy 226.06 88.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -2109,7 +2077,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 127) (xy 223.52 127)
+			(xy 203.2 127) (xy 226.06 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -2139,7 +2107,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 132.08) (xy 208.28 132.08)
+			(xy 208.28 132.08) (xy 226.06 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -2179,7 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 134.62) (xy 210.82 134.62)
+			(xy 210.82 134.62) (xy 226.06 134.62)
 		)
 		(stroke
 			(width 0.1524)
@@ -2209,16 +2177,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 99.06) (xy 205.74 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7f488694-632d-4b67-bcbc-bb344fe4958e")
-	)
-	(wire
-		(pts
 			(xy 203.2 106.68) (xy 205.74 106.68)
 		)
 		(stroke
@@ -2229,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 93.98) (xy 223.52 93.98)
+			(xy 203.2 93.98) (xy 226.06 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -2299,7 +2257,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 137.16) (xy 205.74 144.78)
+			(xy 205.74 134.62) (xy 205.74 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -2489,16 +2447,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 137.16) (xy 205.74 137.16)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "dc03b17d-fbf6-402c-8def-519123cc5266")
-	)
-	(wire
-		(pts
 			(xy 132.08 137.16) (xy 132.08 134.62)
 		)
 		(stroke
@@ -2539,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 96.52) (xy 223.52 96.52)
+			(xy 203.2 96.52) (xy 226.06 96.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -2607,6 +2555,78 @@
 		)
 		(uuid "fef71413-0422-453f-8e91-374cbb582c07")
 	)
+	(global_label "UART_KER_CTS"
+		(shape input)
+		(at 226.06 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ae731aa-808f-4591-8c16-4a28d9186259")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.5032 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "UART_SYS_RFR"
+		(shape input)
+		(at 226.06 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b6a4b87-dfe8-4cb0-8d54-202f0bdff48f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.6242 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "UART_KER_RFR"
+		(shape input)
+		(at 226.06 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fcc917c-b4e2-441f-9ea3-ace468c491a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.8056 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "USB_P"
 		(shape bidirectional)
 		(at 132.08 86.36 180)
@@ -2655,6 +2675,78 @@
 			)
 		)
 	)
+	(global_label "UART_SYS_TX"
+		(shape input)
+		(at 226.06 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78fcedc3-55da-4032-b9fd-b5304bf4af81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.5918 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "UART_SYS_CTS"
+		(shape input)
+		(at 226.06 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3e9a2fe-9a10-4d73-b21c-95448a688fe5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.3218 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "UART_SYS_RX"
+		(shape input)
+		(at 226.06 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5d247db-a7d0-4fb8-b957-fa220bd261d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.7733 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "USB_N"
 		(shape bidirectional)
 		(at 132.08 83.82 180)
@@ -2676,6 +2768,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "UART_KER_RX"
+		(shape input)
+		(at 226.06 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcc9d013-087f-4ed4-940a-6f6babcbcfa2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.9547 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "UART_KER_TX"
+		(shape input)
+		(at 226.06 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea601f02-746f-4b93-89c5-206c8eec00c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.7732 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
