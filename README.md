@@ -1,5 +1,7 @@
 # PSVSD 2040
 
+![KiCad 3D render](/assets/psvsd-gif.gif)
+
 This is a module based on [Yinfanlu's PSVSD adapter](https://github.com/yifanlu/psvsd/). Last year, I took the original Eagle Autodesk files and adapted them to a [KiCad EDA source](https://github.com/Murwnas/psvsd-kicad). This repo code is based on my adaptation. 
 
 One of the problems with the original PSVSD is the out-of-production Genesys chip. Apparently, from my research, all that chip does is expose a connected SD card as a USB Mass Storage device, which the Yinfanlu driver uses to interface with the PSVSD module. 
