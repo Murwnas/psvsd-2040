@@ -78,35 +78,35 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|152000000|102500000|F.Cu|4|8440228a-f5a8-42b2-9d11-f9a831b36d39|0cc31821-54e8-4914-b439-ea921c9f5728",
-          ""
-        ],
-        [
           "unconnected_items|152000001|106099999|F.Cu|4|0cc31821-54e8-4914-b439-ea921c9f5728|81a88ac9-1e79-41a4-9465-09b2cc1c2d5a",
           ""
         ],
         [
-          "unconnected_items|152837500|101662500|F.Cu|4|98e3d328-28a4-488f-89c0-a50ef8f53956|6c184761-b71f-46be-99c8-00dfa26f07fb",
+          "unconnected_items|152000001|106099999|F.Cu|4|0cc31821-54e8-4914-b439-ea921c9f5728|8440228a-f5a8-42b2-9d11-f9a831b36d39",
           ""
         ],
         [
-          "unconnected_items|155237500|101662500|F.Cu|4|ece3e4dc-b914-4fbb-a1a4-8b3efa6956fd|a81ad1dd-47e4-49d3-9875-a1c06ec1403d",
+          "unconnected_items|153237500|101662500|F.Cu|4|6c184761-b71f-46be-99c8-00dfa26f07fb|98e3d328-28a4-488f-89c0-a50ef8f53956",
           ""
         ],
         [
-          "unconnected_items|155637499|101662500|F.Cu|4|b69c9c75-6ee6-4dbf-b404-0af489944262|a2fa4dbd-e8ca-43bb-8024-82cdc955e8af",
+          "unconnected_items|155237500|101662500|F.Cu|4|ece3e4dc-b914-4fbb-a1a4-8b3efa6956fd|ac32aa8a-fafa-4cd3-84db-a2ade1e48fe1",
           ""
         ],
         [
-          "unconnected_items|155650000|102700000|F.Cu|4|7a460244-158f-41cf-9329-5e371c9d67b8|8ca7dadf-f568-421d-b785-9e02bbe5574a",
+          "unconnected_items|155637499|101662500|F.Cu|4|f39f3072-c671-48f3-bcb2-e11aa74e2e87|a2fa4dbd-e8ca-43bb-8024-82cdc955e8af",
           ""
         ],
         [
-          "unconnected_items|156800000|101300000|F.Cu|4|5914f622-18af-48cb-8fe4-f154c2c3a5e5|1c4172d7-e2c5-4d91-8551-3ddcdfc25417",
+          "unconnected_items|155650000|102700000|F.Cu|4|dd9b07da-99ce-41ed-8058-40454c02a62a|8ca7dadf-f568-421d-b785-9e02bbe5574a",
           ""
         ],
         [
-          "unconnected_items|160500000|103200000|F.Cu|4|212e761f-417d-436f-9c31-f794137c07e7|0d1f5764-1bc4-4566-b1db-3140744f4af3",
+          "unconnected_items|158875000|102500000|F.Cu|4|cb9fd7e8-530c-4b34-9b3f-e2b8b598f93d|5914f622-18af-48cb-8fe4-f154c2c3a5e5",
+          ""
+        ],
+        [
+          "unconnected_items|160500000|103200000|F.Cu|4|212e761f-417d-436f-9c31-f794137c07e7|fd95f1ca-67cf-4d61-9ade-02b981e9d12b",
           ""
         ]
       ],
@@ -247,7 +247,8 @@
         0.0,
         0.2,
         0.3048,
-        0.5
+        0.5,
+        0.65
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
