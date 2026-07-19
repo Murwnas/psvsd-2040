@@ -5,6 +5,172 @@
 	(uuid "7d177252-c3ad-4703-9fe5-8e8415845e39")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "psvsd-eagle-import:CERAMIC-1NF-50V-5%-C0G(0603)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1794,16 +1960,16 @@
 		(uuid "2efff138-7d4e-468e-99d6-03e4a57dc3c5")
 	)
 	(junction
-		(at 66.04 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e1c4bc9-a183-4753-bb21-4516b47acecf")
-	)
-	(junction
 		(at 132.08 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c44222a-aefb-4b5b-ab05-fc40095baa3e")
+	)
+	(junction
+		(at 66.04 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "626a557f-a983-405e-af60-3687392d371a")
 	)
 	(junction
 		(at 99.06 121.92)
@@ -1924,6 +2090,16 @@
 			(type solid)
 		)
 		(uuid "1534784a-a5bb-4d9f-a42d-bc279f92390f")
+	)
+	(wire
+		(pts
+			(xy 63.5 121.92) (xy 66.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15be4036-cbc0-4f01-8205-5c598a5db7e4")
 	)
 	(wire
 		(pts
@@ -2064,16 +2240,6 @@
 			(type solid)
 		)
 		(uuid "3e1f9394-e6e8-42f4-8923-27bc07824217")
-	)
-	(wire
-		(pts
-			(xy 58.42 121.92) (xy 66.04 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3efa07dd-6aa3-4dc3-b40a-f7b254a715f4")
 	)
 	(wire
 		(pts
@@ -2294,6 +2460,16 @@
 			(type solid)
 		)
 		(uuid "9921035a-549a-40f5-8d7b-366d561620d1")
+	)
+	(wire
+		(pts
+			(xy 53.34 121.92) (xy 55.88 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba5ed49-3833-49ca-800e-2d7528cb87a6")
 	)
 	(wire
 		(pts
@@ -2653,7 +2829,7 @@
 	)
 	(global_label "VDD33"
 		(shape bidirectional)
-		(at 58.42 121.92 180)
+		(at 53.34 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2663,7 +2839,7 @@
 		)
 		(uuid "778f6a70-6feb-492b-ae39-785d02d900bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.4792 121.92 0)
+			(at 43.3992 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4003,6 +4179,86 @@
 			(project "psvsd"
 				(path "/4e154789-230f-48f5-8bce-af12a707c6dc/314dc8a3-d23a-4868-9b71-fad4ce898ab2"
 					(reference "#GND19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 59.69 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e109fee-a002-4e09-bf45-a2c84b0cf49d")
+		(property "Reference" "D2"
+			(at 59.3725 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD0603-B0340R"
+			(at 59.3725 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 59.69 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8fcaa8d-f9a3-4264-8467-a8f9365b1bbd")
+		)
+		(pin "2"
+			(uuid "d05ec82f-11d5-47f8-b7cc-e7cd3fd98af7")
+		)
+		(instances
+			(project "psvsd"
+				(path "/4e154789-230f-48f5-8bce-af12a707c6dc/314dc8a3-d23a-4868-9b71-fad4ce898ab2"
+					(reference "D2")
 					(unit 1)
 				)
 			)
