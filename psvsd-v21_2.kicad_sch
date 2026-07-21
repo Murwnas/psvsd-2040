@@ -5864,7 +5864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 70.8152 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5944,7 +5944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 232.918 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -6023,7 +6023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 273.812 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -6103,7 +6103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 227.838 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -6185,7 +6185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 32.7152 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6344,7 +6344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 83.5152 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6512,7 +6512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 58.1152 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6591,7 +6591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 274.32 140.462 90)
 			(hide yes)
 			(show_name no)
@@ -6751,7 +6751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 268.9352 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6831,7 +6831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 235.458 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -6988,7 +6988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 269.24 143.8148 0)
 			(hide yes)
 			(show_name no)
@@ -7070,7 +7070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 96.2152 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7149,7 +7149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 223.52 144.4752 0)
 			(hide yes)
 			(show_name no)
@@ -7309,7 +7309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 169.8752 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7388,7 +7388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 104.14 67.818 90)
 			(hide yes)
 			(show_name no)
@@ -7467,7 +7467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 240.538 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -7624,7 +7624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 222.758 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -7706,7 +7706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 122.8852 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7953,7 +7953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 225.298 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -8191,7 +8191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 169.8752 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8429,7 +8429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 230.378 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -8589,7 +8589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 157.1752 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8671,7 +8671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 108.9152 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9184,7 +9184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 104.14 70.358 90)
 			(hide yes)
 			(show_name no)
@@ -9536,7 +9536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 45.4152 36.83 0)
 			(hide yes)
 			(show_name no)
