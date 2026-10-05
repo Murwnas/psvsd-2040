@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "psvsd-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/psvsd-eagle-import.kicad_sym") (options "") (descr ""))
+	(lib (name "kicad-imports") (type "KiCad") (uri "${KIPRJMOD}/kicad-imports.kicad_sym") (options "") (descr ""))
+)
