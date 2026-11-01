@@ -82,31 +82,11 @@
           ""
         ],
         [
-          "unconnected_items|152000001|106099999|F.Cu|4|0cc31821-54e8-4914-b439-ea921c9f5728|4eed56dd-5236-4f72-bbbb-976e6ba9832f",
-          ""
-        ],
-        [
-          "unconnected_items|152000001|106099999|F.Cu|4|0cc31821-54e8-4914-b439-ea921c9f5728|da26717f-ce0a-4c4b-bef4-cfede48fcb91",
-          ""
-        ],
-        [
-          "unconnected_items|152837500|101662500|F.Cu|4|f91c3dfb-cb0a-4ee1-9d13-e4d7b37e02ea|6c184761-b71f-46be-99c8-00dfa26f07fb",
-          ""
-        ],
-        [
           "unconnected_items|153237500|101662500|F.Cu|4|6c184761-b71f-46be-99c8-00dfa26f07fb|a81ad1dd-47e4-49d3-9875-a1c06ec1403d",
           ""
         ],
         [
           "unconnected_items|155237500|101662500|F.Cu|4|ece3e4dc-b914-4fbb-a1a4-8b3efa6956fd|a81ad1dd-47e4-49d3-9875-a1c06ec1403d",
-          ""
-        ],
-        [
-          "unconnected_items|155567500|102700000|F.Cu|4|dd9b07da-99ce-41ed-8058-40454c02a62a|8ca7dadf-f568-421d-b785-9e02bbe5574a",
-          ""
-        ],
-        [
-          "unconnected_items|156749999|100932499|F.Cu|4|a3bd52d4-2535-431e-9caf-9f65d703135c|ece3e4dc-b914-4fbb-a1a4-8b3efa6956fd",
           ""
         ]
       ],
@@ -212,6 +192,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -223,6 +204,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -234,6 +216,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -536,6 +519,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -678,8 +662,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Power",
