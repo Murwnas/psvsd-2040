@@ -78,16 +78,8 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|150667500|102500000|F.Cu|4|b41d7597-a4f9-48a0-b3f5-79edcf96c1dd|5b2bbed4-661e-4608-8aaa-89c38217c88e",
-          ""
-        ],
-        [
-          "unconnected_items|153237500|101662500|F.Cu|4|6c184761-b71f-46be-99c8-00dfa26f07fb|a81ad1dd-47e4-49d3-9875-a1c06ec1403d",
-          ""
-        ],
-        [
-          "unconnected_items|155237500|101662500|F.Cu|4|ece3e4dc-b914-4fbb-a1a4-8b3efa6956fd|a81ad1dd-47e4-49d3-9875-a1c06ec1403d",
-          ""
+          "unconnected_items|163475600|114328751|F.Cu|4|73df74c4-bd10-46b7-853f-a2bfeeaadf3c|4f128d74-e9fb-4c83-a77e-47383205db96",
+          "This is a warning for the two copper zones not being connected together. I checked and they are, so it should be fine to exclude this warning."
         ]
       ],
       "meta": {
@@ -890,12 +882,12 @@
       "psvsd"
     ],
     [
-      "314dc8a3-d23a-4868-9b71-fad4ce898ab2",
-      "yinfanlu-legacy"
-    ],
-    [
       "06352a55-a852-42bd-8c5a-35385f854ccd",
       "psvsd-2040"
+    ],
+    [
+      "314dc8a3-d23a-4868-9b71-fad4ce898ab2",
+      "yinfanlu-legacy"
     ]
   ],
   "text_variables": {},

@@ -3902,16 +3902,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 118.11) (xy 34.29 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f9e6e3b-4be4-4559-8cce-f09a0c2af196")
-	)
-	(wire
-		(pts
 			(xy 259.08 142.24) (xy 269.24 142.24)
 		)
 		(stroke
@@ -4092,16 +4082,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 115.57) (xy 29.21 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42b426e9-72fb-4534-847b-4dd1dd5b66c1")
-	)
-	(wire
-		(pts
 			(xy 106.68 78.74) (xy 109.22 78.74)
 		)
 		(stroke
@@ -4142,13 +4122,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 120.65) (xy 34.29 120.65)
+			(xy 27.94 120.65) (xy 30.48 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4756653d-e5c1-42b9-94d5-6ec3aa071091")
+		(uuid "46b6ac78-7269-413f-b980-47e9d371e1ad")
 	)
 	(wire
 		(pts
@@ -4202,13 +4182,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 113.03) (xy 35.56 113.03)
+			(xy 27.94 115.57) (xy 33.02 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c6b77ca-d334-47e1-b298-96d8987d5993")
+		(uuid "5cbdc82d-8c83-4b83-9b2b-de5d8673f06e")
 	)
 	(wire
 		(pts
@@ -4239,6 +4219,16 @@
 			(type default)
 		)
 		(uuid "68137ac1-7979-4847-abbb-70204138b4f7")
+	)
+	(wire
+		(pts
+			(xy 27.94 113.03) (xy 33.02 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d688cb-4cdb-409b-8757-cb1e911cbfe4")
 	)
 	(wire
 		(pts
@@ -4419,6 +4409,16 @@
 			(type default)
 		)
 		(uuid "7fa265d3-991f-43c2-a8b4-3c9a6331fb4b")
+	)
+	(wire
+		(pts
+			(xy 30.48 123.19) (xy 30.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8257f44f-d0ca-4a40-b8a7-c20f01e19a4a")
 	)
 	(wire
 		(pts
@@ -4652,6 +4652,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 118.11) (xy 39.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ca1afe-10fe-414f-b831-10058cb7dedb")
+	)
+	(wire
+		(pts
 			(xy 219.71 35.56) (xy 226.06 35.56)
 		)
 		(stroke
@@ -4782,7 +4792,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 113.03) (xy 44.45 113.03)
+			(xy 46.99 118.11) (xy 48.26 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4939,16 +4949,6 @@
 			(type default)
 		)
 		(uuid "e6f97b76-5b87-4efe-9f5d-e2f125dbf622")
-	)
-	(wire
-		(pts
-			(xy 27.94 115.57) (xy 29.21 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e88a9b2c-5d23-433b-8858-11caf0ed6b06")
 	)
 	(wire
 		(pts
@@ -5181,7 +5181,7 @@
 		(uuid "50ba6b2a-b68f-47b7-a3f0-ea2dc7c7cc32")
 	)
 	(label "SWCLK"
-		(at 34.29 118.11 0)
+		(at 33.02 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5261,7 +5261,7 @@
 		(uuid "7d69322e-5d95-4871-8ffe-fb47f32dc1c1")
 	)
 	(label "SWDIO"
-		(at 34.29 120.65 0)
+		(at 33.02 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5568,7 +5568,7 @@
 	)
 	(global_label "VDD33"
 		(shape bidirectional)
-		(at 44.45 113.03 0)
+		(at 48.26 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5578,7 +5578,7 @@
 		)
 		(uuid "52327e12-5560-4b1b-8b09-5b072982d227")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.3908 113.03 0)
+			(at 58.2008 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8241,7 +8241,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 39.37 113.03 180)
+		(at 43.18 118.11 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8249,10 +8249,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a875230f-f97c-4c6e-a816-73a8401526d5")
 		(property "Reference" "D1"
-			(at 39.6875 106.68 0)
+			(at 42.926 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8262,7 +8261,8 @@
 			)
 		)
 		(property "Value" "CD0603-B0340R"
-			(at 39.6875 109.22 0)
+			(at 43.4975 114.3 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8272,7 +8272,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 39.37 113.03 0)
+			(at 43.18 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8283,7 +8283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 113.03 0)
+			(at 43.18 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8294,7 +8294,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 39.37 113.03 0)
+			(at 43.18 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8721,7 +8721,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 123.19 0)
+		(at 30.48 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8732,7 +8732,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfc65617-5005-4a69-b43a-233c7bd97473")
 		(property "Reference" "#PWR010"
-			(at 29.21 129.54 0)
+			(at 30.48 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8743,7 +8743,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 128.27 0)
+			(at 30.48 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8753,7 +8753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 123.19 0)
+			(at 30.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8764,7 +8764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 123.19 0)
+			(at 30.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8775,7 +8775,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 123.19 0)
+			(at 30.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
